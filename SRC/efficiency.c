@@ -2,6 +2,6 @@
 
 float efficiency(float Pi, float Op) 
 {
-   return ((Op/Pi)*100);
+   return ((Op/Pi)*(100));
    
 } 
