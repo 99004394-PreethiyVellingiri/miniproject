@@ -26,20 +26,14 @@ $(PROJECT_NAME) : $(SRC)
 run: $(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
 test:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
-=======
-	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
->>>>>>> 3dc0f77f8118f2165b1162e8f95b1907b1c8c331
-	./Test/$(TEST_NAME).$(EXEC)
+
 
 coverage:$(SRC)
-		gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(COVERAGE_NAME).$(EXEC)
->>>>>>> 134726fa6cbc3c237bbb3f42d2eef83005534000
-		./$(COVERAGE_NAME).$(EXEC)
-		gcov -a Main.c
-		$(editor) Main.c.gcov	
+	gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(COVERAGE_NAME).$(EXEC)
+	./$(COVERAGE_NAME).$(EXEC)
+	gcov -a Main.c
+	$(editor) Main.c.gcov	
 clean:
 	$(RM) *.$(EXEC)
 	$(RM) *.gcn
