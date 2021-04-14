@@ -21,6 +21,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install gcov 
+      run: sudo apt -y install gcovr
     - name: make coverage
-      run: make coverage -C 3_Implementation/main.c
+      run: make -C 3_Implementation/ coverage
+    - name: GCov only
+      run:  gcovr -r .
       
