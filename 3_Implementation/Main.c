@@ -60,7 +60,7 @@ typedef struct Output{
   Output *O =&O1;
 
   printf("  Induction motor specifications  \n");
-  printf(" 1.Efficiency\n 2.Total losses\n 3.Power developed\n 4.Rotor power\n 6.Torque backward\n 7.Torque forward\n 8.Sync frequency\n 9.Output power\n10.Sync speed\n 11.Exit\n");
+  printf(" 1.Efficiency\n 2.Total losses\n 3.Power developed\n 4.Rotor power\n 5.Shafttorque\n 6.Torque backward\n 7.Torque forward\n 8.Sync frequency\n 9.Output power\n10.Sync speed\n 11.Exit\n");
 start:
   scanf("%d",&calculation);
 
@@ -68,7 +68,7 @@ start:
    O->Ss= synspeed(O->Sf,I1->a[1]);
    O->Pd = powerdeveloped(I1->a[4],I1->S);
    O->Op = outputpower(O->Pd,I1->a[3]);
-   //O->T = shafttorque(O->Pd,I1->a[2]);
+   O->T = shafttorque(O->Pd,I1->a[2]);
    O->Tl = totallosses(I1->Pi,O->Op);
    O->E = efficiency(I1->Pi,O->Op);
    O->Rp = rotorpower(O->Pd,I1->a[5]);
@@ -90,9 +90,9 @@ start:
       case Rotorpower:
       printf("%.2f",O->Rp);
       break;
-      //case Shafttorque:
-      //printf("%.6f",O->T);
-      //break;
+      case Shafttorque:
+      printf("%.6f",O->T);
+      break;
       case Torquebackward:
       printf("%.2f",O->Tb);
       break;
