@@ -22,14 +22,14 @@ endif
 .PHONY : all test coverage run clean doc
 
 $(PROJECT_NAME) : $(SRC) 
-	gcc Main.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(call FixPath,$(PROJECT_NAME).$(EXEC))
+	gcc Main.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(call FixPath,$(PROJECT_NAME).$(EXEC))
 run: $(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
 test:
-	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
+	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
 	./Test/$(TEST_NAME).$(EXEC)
 coverage:$(SRC)
-		gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c Test/test.c -o $(COVERAGE_NAME).$(EXEC)
+		gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c Test/test.c -o $(COVERAGE_NAME).$(EXEC)
 		./$(COVERAGE_NAME).$(EXEC)
 		gcov -a Main.c
 		$(editor) Main.c.gcov	

@@ -52,7 +52,7 @@ float outputpower(float Pd,int Wm);
  * @param Nr Synchronous speed
  * @return float shaft torque of a single phase Induction motor
  */
-float shafttorque(float Pd, int Nr);
+//float shafttorque(float Pd, int Nr);
 /**
  * @brief  Function to find total losses of a single phase Induction motor
  * 
