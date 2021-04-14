@@ -27,10 +27,10 @@ void check4(void)
    //TEST_ASSERT_EQUAL_FLOAT(102.80, outputpower(112.80,10));
 }
 
-//void check5(void)
-//{ TEST_ASSERT_EQUAL_FLOAT(1.007431,shafttorque(151.84,1440));
+void check5(void)
+{ TEST_ASSERT_EQUAL_FLOAT(1.007431,shafttorque(151.84,1440));
    //TEST_ASSERT_EQUAL_FLOAT(0.83,shafttorque(102.80,960));
-//}
+}
 
 
 void check6(void)
@@ -70,7 +70,7 @@ int main()
     RUN_TEST(check2);
     RUN_TEST(check3);
     RUN_TEST(check4);
-    //RUN_TEST(check5);
+    RUN_TEST(check5);
     RUN_TEST(check6);
     RUN_TEST(check7);
     RUN_TEST(check8);

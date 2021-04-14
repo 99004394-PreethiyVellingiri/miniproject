@@ -68,7 +68,7 @@ start:
    O->Ss= synspeed(O->Sf,I1->a[1]);
    O->Pd = powerdeveloped(I1->a[4],I1->S);
    O->Op = outputpower(O->Pd,I1->a[3]);
-   //O->T = shafttorque(O->Pd,I1->a[2]);
+   O->T = shafttorque(O->Pd,I1->a[2]);
    O->Tl = totallosses(I1->Pi,O->Op);
    O->E = efficiency(I1->Pi,O->Op);
    O->Rp = rotorpower(O->Pd,I1->a[5]);
@@ -90,9 +90,9 @@ start:
       case Rotorpower:
       printf("%.2f",O->Rp);
       break;
-      //case Shafttorque:
-      //printf("%.6f",O->T);
-      //break;
+      case Shafttorque:
+      printf("%.6f",O->T);
+      break;
       case Torquebackward:
       printf("%.2f",O->Tb);
       break;
