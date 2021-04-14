@@ -27,17 +27,9 @@ run: $(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
 test:
 	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
-<<<<<<< HEAD
-	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
-	./Test/$(TEST_NAME).$(EXEC)
-coverage:$(SRC)
-	gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/Rotorpower.c SRC/shafttorque.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(COVERAGE_NAME).$(EXEC)
-=======
-
 
 coverage:$(SRC)
 	gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(COVERAGE_NAME).$(EXEC)
->>>>>>> 63b29a379d3b3c5d677c7b4cc28a7d15a00ef17f
 	./$(COVERAGE_NAME).$(EXEC)
 	gcov -a Main.c
 	$(editor) Main.c.gcov	
