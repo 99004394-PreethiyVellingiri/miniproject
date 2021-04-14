@@ -7,3 +7,4 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6ce8635953f64ff9949b505604628ff5)](https://www.codacy.com/gh/256606/miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=256606/miniproject&amp;utm_campaign=Badge_Grade)
 [![Unity - Unit Testing](https://github.com/256606/Miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/unity.yml)
+[![Dynamic Valgrind](https://github.com/256606/Miniproject/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)(https://github.com/256606/Miniproject/actions/workflows/CodeQuality_Dynamic.yml)
