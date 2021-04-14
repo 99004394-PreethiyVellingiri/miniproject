@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make run -C implementation/
-        valgrind ./implementation/IM Specifications.out
+        valgrind ./implementation/IM_Specifications.out
