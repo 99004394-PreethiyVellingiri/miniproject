@@ -7,12 +7,12 @@ void tearDown(){}
 
 void check(void)
 {
-    TEST_ASSERT_EQUAL_FLOAT(60.59,efficiency(250.6,151.84));
+    TEST_ASSERT_EQUAL_INT(50,synfrequency(2,0.04));
 }
 
 void check2(void)
 {
-   TEST_ASSERT_EQUAL_FLOAT(1500,synspeed(50,4));
+   TEST_ASSERT_EQUAL_INT(1500,synspeed(50,4));
 }
 
 void check3(void)
@@ -35,31 +35,31 @@ void check5(void)
 
 void check6(void)
 {
-  TEST_ASSERT_EQUAL(60.59,efficiency(250.6,151.84));
+  TEST_ASSERT_EQUAL_FLOAT(60.59,efficiency(250.6,151.84));
    //TEST_ASSERT_EQUAL(34.20,efficiency(300.6,102.80));
 }
 
 void check7(void)
 {
-   TEST_ASSERT_EQUAL(98.76,totallosses(250.6,151.84));
+   TEST_ASSERT_EQUAL_FLOAT(98.76,totallosses(250.6,151.84));
    //TEST_ASSERT_EQUAL(197.180,totallosses(300.6,102.80));
 }
 
 void check8(void)
 {
-   TEST_ASSERT_EQUAL(206,rotorpower(171.84,35));
+   TEST_ASSERT_EQUAL_FLOAT(206.84,rotorpower(171.84,35));
    //TEST_ASSERT_EQUAL(232.80,rotorpower(112.80,20));
 }
 
 void check9(void)
 {
-  TEST_ASSERT_EQUAL(192.25,torqueforward(206,179));
+  TEST_ASSERT_EQUAL_FLOAT(192.92,torqueforward(206.84,179));
    //TEST_ASSERT_EQUAL(176.40,torqueforward(232.80,120));
 }
 
 void check10(void)
 {
-   TEST_ASSERT_EQUAL(13.5,torquebackward(206,179));
+   TEST_ASSERT_EQUAL_FLOAT(13.92,torquebackward(206.84,179));
    //TEST_ASSERT_EQUAL(56.40,torquebackward(232.80,120));
 }
 
