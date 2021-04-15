@@ -1,4 +1,4 @@
-**TITLE:PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
+### TITLE:PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR
 
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy |
@@ -8,9 +8,9 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy |
  |  [![gcov](https://github.com/256606/Miniproject/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/code-coverage.yml) | [![Valgrid](https://github.com/256606/Miniproject/actions/workflows/Valgrind_Check.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/Valgrind_Check.yml) |
  
 
-**PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR**
+### PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR
 
-**OBJECTIVES**
+### OBJECTIVES
 
 •	To estimate the performance characteristics of single-phase induction motor such as efficiency, shaft torque and total losses. 
 
@@ -18,7 +18,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy |
 
 •	To analyse the characteristics of the motor such as rotor power, torque developed in forward and backward direction.
 
-**FOLDER STRUCTURE**
+### FOLDER STRUCTURE
 Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research
@@ -26,19 +26,19 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
-**CONTRIBUTORS LIST AND SUMMARY**
+### CONTRIBUTORS LIST AND SUMMARY
 
 PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `256606` |Preethiy V  | Feature A B C D E F G H I J    | No 0    | No 0  |Yes 10   |Yes 10     
     
 
-**CHALLENGES FACED AND HOW WAS IT OVERCOME**
+### CHALLENGES FACED AND HOW WAS IT OVERCOME
 
 1. Unable to trace locations of file in yml file, resolved after doing proper folder structures.
 
 
-**FUNCTIONS USED**
+### FUNCTIONS USED
 
 •	Arrays
 
@@ -59,7 +59,7 @@ PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases
 •	Code coverage
 
 
-**REQUIREMENTS**
+### REQUIREMENTS
 
 •	Throw the switch Unity framework
 
@@ -81,7 +81,7 @@ Extension C/C++ and Doxygen Documentation Extension
 
    
 
-**REFERENCE**
+### REFERENCES
 1. Induction and Synchronous Machines by K.Murugesh kumar,Assistant professor, PSG College of Technology,published by Vikas publishing house. 
 
 
