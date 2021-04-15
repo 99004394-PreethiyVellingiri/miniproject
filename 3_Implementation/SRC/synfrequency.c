@@ -1,4 +1,4 @@
-#include "../electricals.h"
+#include "..INC/  /electricals.h"
 
 
 int synfrequency(int fr,float S) 
