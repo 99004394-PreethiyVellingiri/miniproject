@@ -118,8 +118,9 @@ start:
  
   L1:while(i<11){
      printf("\n---------------------------");
+    i--;
   goto start;
-    i--;}
+    }
   free(I1);
   return 0;
 }
