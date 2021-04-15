@@ -74,7 +74,7 @@ start:
    O->Rp = rotorpower(O->Pd,I1->a[5]);
    O->Tb= torquebackward( O->Rp,I1->a[4]);
    O->Tf = torqueforward(O->Rp,I1->a[4]);
-    if (caculation>11)
+    if (calculation>11)
     { break;}
 
     switch(calculation)
