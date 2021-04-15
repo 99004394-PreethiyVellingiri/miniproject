@@ -29,7 +29,7 @@ The Performance characteristics estimator system is a program application design
 
 ### SWOT ANALYSIS
 
-[image](https://github.com/256606/miniproject/blob/main/1_Requirements/SWOT%20Analysis.png)
+![image](https://github.com/256606/miniproject/blob/main/1_Requirements/SWOT%20Analysis.png)
 ### 4W’s and 1H
 
 ### WHO? 
