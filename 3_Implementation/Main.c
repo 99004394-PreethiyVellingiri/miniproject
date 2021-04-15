@@ -75,7 +75,7 @@ start:
    O->Tb= torquebackward( O->Rp,I1->a[4]);
    O->Tf = torqueforward(O->Rp,I1->a[4]);
     if (calculation>11)
-    { break;}
+    { goto L1;}
 
     switch(calculation)
   {
@@ -116,7 +116,7 @@ start:
       break;
  } 
  
-  while(i<11){
+  L1:while(i<11){
      printf("\n---------------------------");
   goto start;
     i--;}
