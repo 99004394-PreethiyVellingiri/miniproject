@@ -1,4 +1,4 @@
-#include "../electricals.h"
+#include "../INC/electricals.h"
 
 float powerdeveloped(int Td,float S) 
 {
