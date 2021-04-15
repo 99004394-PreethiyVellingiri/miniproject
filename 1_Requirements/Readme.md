@@ -52,10 +52,10 @@ The user is provided with multiple characteristics and he can use the choice opt
 |H4 |Calculation of Output Power| Implemented|
 |H5 |Calculation of Shaft torque| Implemented|
 |H6 |Calculation of Efficiency |Implemented|
-|H7 |Calculation of Total losses Implemented|
-|H8|Calculation of Rotor power Implemented|
-|H9| Calculation of Torque developed in forward direction Implemented|
-|H10| Calculation of Torque developed in Backward direction Implemented|
+|H7 |Calculation of Total losses |Implemented|
+|H8|Calculation of Rotor power |Implemented|
+|H9| Calculation of Torque developed in forward direction |Implemented|
+|H10| Calculation of Torque developed in Backward direction |Implemented|
 
 **LOW LEVEL REQUIREMENTS**
 
@@ -63,8 +63,8 @@ The user is provided with multiple characteristics and he can use the choice opt
 |-----|------|------|------|
 |L1| Calculation of Synchronous frequency by getting inputs such as Slip and Rotor frequency from user |H1 |Implemented|
 |L2| Calculation of Synchronous speed by getting inputs such as number of poles from user and Synchronous frequency from previous function| H2 |Implemented|
-|L3| Calculation of Power developed by getting inputs such as Torque developed and mechanical losses from user| H3| Implemented|
-|L4| Calculation of Output power by getting inputs such as power developed and |H4 |Implemented|
+|L3| Calculation of Power developed by getting inputs such as Torque developed and slip from user| H3| Implemented|
+|L4| Calculation of Output power by getting inputs such as power developed from previous function and mechanical loss from user |H4 |Implemented|
 |L5| Calculation of Shaft torque by getting inputs such as output power and from previous function| H5 |Implemented|
 |L6| Calculation of Efficiency by getting inputs such as Input power from user and Output power from fourth function |H6 |Implemented|
 |L7| Calculation of Total losses by getting inputs such as Input power from user and Output power from fourth function| H7 |Implemented|
