@@ -14,6 +14,25 @@
 
 •	To analyse the characteristics of the motor such as rotor power, torque developed in forward and backward direction.
 
+**FOLDER STRUCTURE**
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
+
+**CONTRIBUTORS LIST AND SUMMARY**
+
+PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|---------|----------------|----------------|---------------|-------------|--------------
+`256606` |Preethiy V  | Feature A B C D E F G H I J    | No 0    | No 0  |Yes N10   |Yes 10     
+    
+
+**CHALLENGES FACED AND HOW WAS IT OVERCOME**
+
+1. Unable to trace locations of file in yml file, resolved after doing proper folder structures.
+
 
 **FUNCTIONS USED**
 
