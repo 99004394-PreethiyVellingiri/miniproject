@@ -113,6 +113,8 @@ start:
       case Exit:
       exit(0);
       break;
+      default:
+      exit(0);
  } 
 
 printf("\n---------------------------");
