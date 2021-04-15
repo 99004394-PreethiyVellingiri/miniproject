@@ -114,8 +114,9 @@ start:
       exit(0);
       break;
  } 
-  printf("\n---------------------------");
+
   while(i<11){
+     printf("\n---------------------------");
   goto start;
     i--;}
   free(I1);
