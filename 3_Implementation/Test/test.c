@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
-#include "../electricals.h"
+#include "../INC/electricals.h"
 void setUp(){}
 void tearDown(){}
 
