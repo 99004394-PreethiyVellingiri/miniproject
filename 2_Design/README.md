@@ -9,5 +9,9 @@
 
 ## Low Level Design 
 * UML OBJECT DIAGRAM :
-![image]
+![image](https://github.com/256606/miniproject/blob/main/2_Design/STRUCTURAL%20DIAGRAM/Object%20diagram.jpg)
+
+*ACTIVITY DIAGRAM:
+![image](
+
                               
