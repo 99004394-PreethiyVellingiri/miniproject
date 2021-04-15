@@ -25,9 +25,9 @@ Folder             | Description
 
 **CONTRIBUTORS LIST AND SUMMARY**
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256606` |Preethiy V  | Feature A B C D E F G H I J    | No 0    | No 0  |Yes N10   |Yes 10     
+`256606` |Preethiy V  | Feature A B C D E F G H I J    | No 0    | No 0  |Yes 10   |Yes 10     
     
 
 **CHALLENGES FACED AND HOW WAS IT OVERCOME**
@@ -76,12 +76,7 @@ Extension C/C++ and Doxygen Documentation Extension
 
 •	Valgrid for Dynamic memory analysis in Linux
 
-**CONTRIBUTORS LIST**
-
-
-SF Id. |  Name   |    Features    |No Of Test Cases|Test Cases Passed
--------|---------|----------------|-------------|--------------
-`256606` | Preethiy V | A B C D E F G H I J    |10   |10     
+   
 
 **REFERENCE**
 1. Induction and Synchronous Machines by K.Murugesh kumar,Assistant professor, PSG College of Technology,published by Vikas publishing house. 
