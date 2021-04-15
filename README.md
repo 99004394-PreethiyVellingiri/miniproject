@@ -1,4 +1,4 @@
-**PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
+**TITLE:****PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
 
 
 [![C/C++ CI](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml) 
@@ -10,7 +10,7 @@
 
 **PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR**
 
-**Objectives**
+**OBJECTIVES**
 
 •	To estimate the performance characteristics of single-phase induction motor such as efficiency, shaft torque and total losses. 
 
@@ -19,7 +19,7 @@
 •	To analyse the characteristics of the motor such as rotor power, torque developed in forward and backward direction.
 
 
-**Functions used**
+**FUNCTIONS USED**
 
 •	Arrays
 
@@ -40,7 +40,7 @@
 •	Code coverage
 
 
-**Requirements**
+**REQUIREMENTS**
 
 •	Throw the switch Unity framework
 
@@ -66,6 +66,9 @@ Extension C/C++ and Doxygen Documentation Extension
 SF Id. |  Name   |    Features    |No Of Test Cases|Test Cases Passed
 -------|---------|----------------|-------------|--------------
 `256606` | Preethiy V | A B C D E F G H I J    |10   |10     
+
+**REFERENCE**
+1. Induction and Synchronous Machines by K.Murugesh kumar,Assistant professor, PSG College of Technology,published by Vikas publishing house. 
 
 
 
