@@ -19,7 +19,7 @@
 •	To analyse the characteristics of the motor such as rotor power, torque developed in forward and backward direction.
 
 
-Functions used
+**Functions used**
 
 •	Arrays
 
@@ -65,10 +65,7 @@ Extension C/C++ and Doxygen Documentation Extension
 
  	 	 	 
 
-
-
-
-**BLOCK DIAGRAM**
+   
 
 
 
