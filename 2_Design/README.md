@@ -14,7 +14,7 @@
 * ACTIVITY DIAGRAM:
 ![image](https://github.com/256606/miniproject/blob/main/2_Design/BEHAVIORAL%20DIAGRAM/Activity%20diagram1.jpeg)
 ![image](https://github.com/256606/miniproject/blob/main/2_Design/BEHAVIORAL%20DIAGRAM/Activitydiagram2.jpeg)
-![image](
+![image](https://github.com/256606/miniproject/blob/main/2_Design/BEHAVIORAL%20DIAGRAM/Activitydiagram3.jpeg)
 
 
                               
