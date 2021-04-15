@@ -1,4 +1,4 @@
-#include "../electricals.h"
+#include "..INC//electricals.h"
 
 float shafttorque(float Op ,int Nr) 
 {
