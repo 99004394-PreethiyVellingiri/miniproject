@@ -78,7 +78,8 @@ start:
    O->Rp = rotorpower(O->Pd,I1->a[5]);
    O->Tb= torquebackward( O->Rp,I1->a[4]);
    O->Tf = torqueforward(O->Rp,I1->a[4]);
-   
+    if (calculation>11)
+    { goto L1;}
 
     switch(calculation)
   {
@@ -118,11 +119,20 @@ start:
       exit(0);
       break;
  } 
+<<<<<<< HEAD
   L1:while(i<11){
   printf("\n---------------------------");
   i--;
   goto start;
   }
+=======
+ 
+  L1:while(i<11){
+     printf("\n---------------------------");
+    i--;
+  goto start;
+    }
+>>>>>>> 6cc9dd292c542614c27cdf0b22f0671d62a74ef9
   free(I1);
   return 0;
 }
