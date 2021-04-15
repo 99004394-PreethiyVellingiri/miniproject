@@ -1,4 +1,4 @@
-#include "..INC//electricals.h"
+#include "../INC/electricals.h"
 
 int synspeed(int Sf,int p) 
 {
