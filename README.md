@@ -1,4 +1,4 @@
-PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR
+**PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
 
 
 [![C/C++ CI](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml) 
@@ -8,9 +8,9 @@ PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6ce8635953f64ff9949b505604628ff5)](https://www.codacy.com/gh/256606/miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=256606/miniproject&amp;utm_campaign=Badge_Grade)
 [![Unity - Unit Testing](https://github.com/256606/Miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/unity.yml)
 
-PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR
+**PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR**
 
-Objectives
+**Objectives**
 
 •	To estimate the performance characteristics of single-phase induction motor such as efficiency, shaft torque and total losses. 
 
@@ -40,7 +40,7 @@ Functions used
 •	Code coverage
 
 
-Requirements
+**Requirements**
 
 •	Throw the switch Unity framework
 
@@ -68,7 +68,7 @@ Extension C/C++ and Doxygen Documentation Extension
 
 
 
-BLOCK DIAGRAM
+**BLOCK DIAGRAM**
 
 
 
