@@ -1,15 +1,17 @@
-**INTRODUCTION**
+### MINIPROJECT BY 256606
+### PERFORMANCE CHARACTERISTICS ESTIMATOR SYSTEM FOR A SINGLE PHASE INDUCTION MOTOR
+### INTRODUCTION
 
 The Performance characteristics estimator system is a program application designed exclusively for the single-phase induction motor. It can be used by wide variety of Industries who depend on these motors for their daily industrial processes and students who are in need to find these parameters by undergoing a lot of tests in a huge hardware setup with necessary precautions and lab technicians who are in a need to react very quickly if any errors occur in the machine. In a single -phase induction motor it is required to conduct more than ten different tests to calculate these parameters of performance characteristics. This Program will definitely save the time of the users and at the same time ensures the safety of them. This program requires a minimum knowledge to handle. Any user who knows to send inputs and receive outputs is capable of operating this program.
 
 
-**RESEARCH**
+### RESEARCH
 
 
 
-**COST AND AGEING**
+### COST AND AGEING
 
-**FEATURES**
+### FEATURES
 
 • Calculation of Synchronous frequency. 
 • Calculation of Synchronous speed. 
@@ -25,25 +27,25 @@ The Performance characteristics estimator system is a program application design
 ##BLOCK DIAGRAM
 
 
-##SWOT ANALYSIS
-**4W’s and 1H**
+### SWOT ANALYSIS
+### 4W’s and 1H
 
-**WHO? **
+### WHO? 
 This program application can be used by Industrial labours, Students and Lab technicians and at times even an unskilled labour.
 
-**WHY?**
+### WHY?
 Performing many number of tests with heavy equipment and safety precautions can be eliminated with the help of this software.
 
-**WHEN? **
+### WHEN? 
 When the industrial labour cannot perform the test on required machine, when a student feels difficult to remember the testing procedure for determination of the performance characteristics that takes, when the lab technician is in an immediate need to check for the error, during these periods they can use this application program.
 
-**WHERE? **
+### WHERE? 
 The program can be made to run on any industries equipped with basic computer systems and educational institutions employed with computers.
 
-**HOW?**
+### HOW?
 The user is provided with multiple characteristics and he can use the choice option to select and obtain the desired result for a specific characteristics.
 
-**HIGH LEVEL REQUIREMENTS**
+### HIGH LEVEL REQUIREMENTS
 |ID|DESCRIPTION|STATUS|
 |-------|-------|-----|
 |H1 |Calculation of Synchronous frequency |Implemented|
@@ -57,7 +59,7 @@ The user is provided with multiple characteristics and he can use the choice opt
 |H9| Calculation of Torque developed in forward direction |Implemented|
 |H10| Calculation of Torque developed in Backward direction |Implemented|
 
-**LOW LEVEL REQUIREMENTS**
+### LOW LEVEL REQUIREMENTS
 
 |ID |DESCRIPTION| ID |STATUS|
 |-----|------|------|------|
