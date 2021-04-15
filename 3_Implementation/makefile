@@ -27,11 +27,7 @@ run: $(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
 test:
 	gcc Test/test.c -I -c  SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
-<<<<<<< HEAD
 	./Test/$(TEST_NAME).$(EXEC)
-=======
-
->>>>>>> 6cc9dd292c542614c27cdf0b22f0671d62a74ef9
 coverage:$(SRC)
 	gcc -fprofile-arcs -ftest-coverage Main.c -I -c SRC/synfrequency.c  SRC/synspeed.c SRC/powerdeveloped.c SRC/outputpower.c SRC/shafttorque.c SRC/Rotorpower.c SRC/efficiency.c SRC/totallosses.c SRC/torquebackward.c SRC/torqueforward.c -o $(COVERAGE_NAME).$(EXEC)
 	./$(COVERAGE_NAME).$(EXEC)
