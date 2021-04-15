@@ -1,4 +1,4 @@
-**TITLE:****PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
+**TITLE:PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR**
 
 
 [![C/C++ CI](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml) 
