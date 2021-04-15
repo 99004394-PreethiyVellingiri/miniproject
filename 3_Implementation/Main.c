@@ -4,7 +4,7 @@
 int main() {
   
   int calculation;
-  int i;
+  int i=0;
 
   typedef struct Input{
   int *a;
@@ -115,6 +115,7 @@ start:
       break;
  } 
   printf("\n---------------------------");
+  while(i<11)
   goto start;
   free(I1);
   return 0;
