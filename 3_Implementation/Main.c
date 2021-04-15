@@ -63,10 +63,6 @@ typedef struct Output{
   printf(" 1.Efficiency\n 2.Total losses\n 3.Power developed\n 4.Rotor power\n 5.Shafttorque\n 6.Torque backward\n 7.Torque forward\n 8.Sync frequency\n 9.Output power\n10.Sync speed\n 11.Exit\n");
 start:
   scanf("%d",&calculation);
-<<<<<<< HEAD
-=======
-  
->>>>>>> b370b46484b4c5c521c7347c81b8dd6c44e0d61a
 
    O->Sf = synfrequency(I1->a[0],I1->S);
    O->Ss= synspeed(O->Sf,I1->a[1]);
@@ -118,15 +114,9 @@ start:
       exit(0);
       break;
  } 
-<<<<<<< HEAD
+
 printf("\n---------------------------");
   goto start;
-=======
-
-  printf("\n---------------------------");
-  goto start;
- 
->>>>>>> b370b46484b4c5c521c7347c81b8dd6c44e0d61a
   free(I1);
   return 0;
 }
