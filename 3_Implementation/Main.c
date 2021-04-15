@@ -118,13 +118,10 @@ start:
       exit(0);
       break;
  } 
-   if(calculation>11)
-  {
-    goto L1;
-  }
+
   L1:while(i<11){
   printf("\n---------------------------");
-  i--;
+  i++;
   goto start;}
  
   free(I1);
