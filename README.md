@@ -1,6 +1,7 @@
 ### 256606 MINIPROJECT
 
 ### TITLE:PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR
+![image](https://github.com/256606/miniproject/blob/main/1_Requirements/Banner.jpg)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy |
 ------|----------|-------|--------------|----------
