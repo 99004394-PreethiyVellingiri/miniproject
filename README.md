@@ -30,7 +30,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256606` |Preethiy V  | Feature A B C D E F G H I J    | No 0    | No 0  |Yes 10   |Yes 10     
+`256606` |Preethiy V  | Efficiency,Total losses,Shaft torque,Torque deveoped in forward direction,Rotor power,Power developed,Output power,Torque developed in backward direction,Synchronous frequency,Synchronous speed   | No 0    | No 0  |Yes 10   |Yes 10     
     
 
 ### CHALLENGES FACED AND HOW WAS IT OVERCOME
