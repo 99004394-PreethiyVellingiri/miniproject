@@ -26,12 +26,10 @@ In terms of ageing  since no system exists prior to this system it can be taken 
 • Calculation of Torque developed in forward direction. 
 • Calculation of Torque developed in backward direction.
 
-### BLOCK DIAGRAM
-
-
 ### SWOT ANALYSIS
 
 ![image](https://github.com/256606/miniproject/blob/main/1_Requirements/SWOT%20Analysis.png)
+
 ### 4W’s and 1H
 
 ### WHO? 
