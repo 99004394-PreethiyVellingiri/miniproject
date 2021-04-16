@@ -2,14 +2,12 @@
 
 ### TITLE:PERFORMANCE CHARACTERISTICS OF A SINGLE PHASE INDUCTION MOTOR
 
-
 Build | Code Quality | Unity | [Git Inspector](using github.io option)| Codacy |
 ------|----------|-------|--------------|----------
 [![C/C++ CI](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/ccpp.yml) | [![Static Cppcheck](https://github.com/256606/Miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/cppcheck.yml) | [![Unity - Unit Testing](https://github.com/256606/Miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/256606/Miniproject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/256606/Miniproject/actions/workflows/gitinspector.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6ce8635953f64ff9949b505604628ff5)](https://www.codacy.com/gh/256606/miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=256606/miniproject&amp;utm_campaign=Badge_Grade) | 
 Code Coverage|Valgrind |
  [![Code Coverage](https://github.com/256606/miniproject/actions/workflows/gcov.yml/badge.svg)](https://github.com/256606/miniproject/actions/workflows/gcov.yml) | [![Valgrind_Check](https://github.com/256606/miniproject/actions/workflows/valgrid.yml/badge.svg)](https://github.com/256606/miniproject/actions/workflows/valgrid.yml)
  
-
 ### PERFORMANCE CHARACTERISTICS ESTIMATOR FOR A SINGLE PHASE INDUCTION MOTOR
 
 ### OBJECTIVES
@@ -34,11 +32,9 @@ PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `256606` |Preethiy V  | Efficiency,Total losses,Shaft torque,Torque deveoped in forward direction,Rotor power,Power developed,Output power,Torque developed in backward direction,Synchronous frequency,Synchronous speed   | No 0    | No 0  |Yes 10   |Yes 10     
     
-
 ### CHALLENGES FACED AND HOW WAS IT OVERCOME
 
 1. Unable to trace locations of file in yml file, resolved after doing proper folder structures.
-
 
 ### FUNCTIONS USED
 
@@ -60,7 +56,6 @@ PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases
 
 •	Code coverage
 
-
 ### REQUIREMENTS
 
 •	Throw the switch Unity framework
@@ -81,9 +76,7 @@ Extension C/C++ and Doxygen Documentation Extension
 
 •	Valgrid for Dynamic memory analysis in Linux
 
-   
-
-### REFERENCES
+   ### REFERENCES
 1. Induction and Synchronous Machines by K.Murugesh kumar,Assistant professor, PSG College of Technology,published by Vikas publishing house. 
 
 
