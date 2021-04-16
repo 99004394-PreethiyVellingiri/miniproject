@@ -6,10 +6,12 @@ The Performance characteristics estimator system is a program application design
 
 
 ### RESEARCH
-
+The performance characteristics of a single phase induction motor are estimated by undergoing a series of tests such as no load test, a DC test and a locked rotor test manually. There exists no software in handy for this estimation today. The estimator system which i proposed cannot be an exact alternative for the manual testing but to some extent. As heat losses and other losses occur during manual testing cannot be accounted by a software and it is totally dependant on the test environment.
 
 
 ### COST AND AGEING
+While speaking in terms of cost this estimator system can be used for free with a basic smartphpone.
+In terms of ageing  since no system exists prior to this system it can be taken as a starting step for these kind of systems in future.
 
 ### FEATURES
 
@@ -24,7 +26,7 @@ The Performance characteristics estimator system is a program application design
 • Calculation of Torque developed in forward direction. 
 • Calculation of Torque developed in backward direction.
 
-##BLOCK DIAGRAM
+### BLOCK DIAGRAM
 
 
 ### SWOT ANALYSIS
