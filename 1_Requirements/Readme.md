@@ -1,5 +1,7 @@
 ### MINIPROJECT BY 256606
 ### PERFORMANCE CHARACTERISTICS ESTIMATOR SYSTEM FOR A SINGLE PHASE INDUCTION MOTOR
+![image](https://github.com/256606/miniproject/blob/main/1_Requirements/Banner.jpg)
+
 ### INTRODUCTION
 
 The Performance characteristics estimator system is a program application designed exclusively for the single-phase induction motor. It can be used by wide variety of Industries who depend on these motors for their daily industrial processes and students who are in need to find these parameters by undergoing a lot of tests in a huge hardware setup with necessary precautions and lab technicians who are in a need to react very quickly if any errors occur in the machine. In a single -phase induction motor it is required to conduct more than ten different tests to calculate these parameters of performance characteristics. This Program will definitely save the time of the users and at the same time ensures the safety of them. This program requires a minimum knowledge to handle. Any user who knows to send inputs and receive outputs is capable of operating this program.
